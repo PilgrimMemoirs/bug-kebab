@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
+  root to: 'beetle#index' 
+
   get 'beetle/index'
 
   get 'beetle/new'
+
+  post 'beetle/create'
 
   get 'beetle/create'
 
@@ -13,21 +17,7 @@ Rails.application.routes.draw do
 
   get 'beetle/update'
 
-  get 'beattle/index'
 
-  get 'beattle/new'
-
-  get 'beattle/show'
-
-  get 'beattle/new'
-
-  get 'beattle/create'
-
-  get 'beattle/destroy'
-
-  get 'beattle/edit'
-
-  get 'beattle/update'
 
   get 'cricket/index'
 
