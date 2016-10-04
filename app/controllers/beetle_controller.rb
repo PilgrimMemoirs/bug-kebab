@@ -1,5 +1,6 @@
 class BeetleController < ApplicationController
   def index
+    @something = "something"
   end
 
   def new
